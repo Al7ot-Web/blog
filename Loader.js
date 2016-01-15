@@ -309,7 +309,3 @@ if (ischrome) {
   ssc_addEvent(&quot;mousewheel&quot;, ssc_wheel);
   ssc_addEvent(&quot;load&quot;, ssc_init)
 };
-//<![CDATA[ 
-// Loader 
-$(window).bind("load",function(){$("#loadhalaman").fadeOut(1e3)}); 
-//]]> 
