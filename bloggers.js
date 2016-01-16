@@ -1,6 +1,3 @@
-<div class='container'>
-<div class='centered'>
-<script type='text/javascript'>
 //<![CDATA[
 var maxUserNameLength=15;
 var txtAuthorLine="[image] <h5> [user] </h5>نشر <b> [count] </b> [post]";
@@ -55,20 +52,3 @@ document.write("</div>")
 }document.write("</div>")
 }document.write('<script type="text/javascript" src="http://'+window.location.hostname+'/feeds/posts/default?redirect=false&max-results=500&alt=json-in-script&callback=showAuthors"><\/script>');
 //]]>
-</script>
-</div>
-</div>
-<style scoped="" type="text/css">
-.container{width:96%}
-.centered{text-align:center;font-size:90%;margin:0 auto;padding:10px 0 40px 0;width:100%;position:relative}
-.author-line {padding:20px;width:150px;height:auto;margin:20px;text-align:center;display:inline-block;background:#f9f9f9;color:#444;opacity:0.9;transition:all 0.6s;}
-.author-line:hover {box-shadow:0 0 10px rgba(0,0,0,0.2);background:#fff;opacity:1;}
-.author-avatar {vertical-align:middle;margin-bottom:10px;border-radius:3px;box-shadow:0px 0px 5px 0px rgba(0,0,0,0.1);}
-.author-line h5{color:#fff;margin:20px auto;padding:6px 12px;background:#7798db;font-size: 85%;border-radius:3px;font-weight: 100;transition:all 0.5s;}
-.author-line h5:hover{background:#6381c0;}
-#sidebar-wrapper {display:none;}
-#post-wrapper {width:100%;}
-.post-inner {padding:0;}
-h3.post-title a, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-weight:700;font-size:2rem;color:#999;}
-.post-body p,.post-body code {font-size:1.3rem;font-weight:700;}
-</style>
